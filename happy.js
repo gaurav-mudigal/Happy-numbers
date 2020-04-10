@@ -1,5 +1,5 @@
 var isHappy = function (n) {
-    while (n <= 50) {
+    while (n <= n) {
         let str = n.toString().split("").reduce((acc, ele) => acc += Math.pow(ele, 2), 0);
 
         if (str === 1) {
